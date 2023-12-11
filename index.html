@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="sidebar">
+        <div class="name"><a href="#banner">MyPortfolio</a></div>
+        <ul>
+          <li class="about list">
+            <a href="#About" class="navlink"
+              ><ion-icon
+                class="icon"
+                name="person"
+                style="color: #008073"
+              ></ion-icon
+              ><span>About</span></a
+            >
+          </li>
+          <li class="projects list">
+            <a href="#Projects" class="navlink"
+              ><ion-icon
+                class="icon"
+                name="newspaper"
+                style="color: red"
+              ></ion-icon
+              ><span>Projects</span></a
+            >
+          </li>
+          <li class="education list">
+            <a href="#Education" class="navlink"
+              ><ion-icon
+                class="icon"
+                name="book"
+                style="color: orange"
+              ></ion-icon
+              ><span>Education</span></a
+            >
+          </li>
+          <li class="skill list">
+            <a href="#Skills" class="navlink"
+              ><ion-icon
+                class="icon"
+                name="stats-chart"
+                style="color: green"
+              ></ion-icon
+              ><span>Skills</span></a
+            >
+          </li>
+          <li class="contact list">
+            <a href="#Contact" class="navlink"
+              ><ion-icon
+                class="icon"
+                name="call"
+                style="color: rgb(0, 31, 209)"
+              ></ion-icon
+              ><span>Contact</span></a
+            >
+          </li>
+          <li class="resume">
+            <a
+              href="https://docs.google.com/document/d/1ABSwbM4bjhAX5QCTe05X-IoTiVN1IB57pKMjxkX5j0s/edit?usp=sharing"
+              class="navlink"
+              target="_blank"
+              ><ion-icon
+                class="icon"
+                name="document-text"
+                style="color: rgb(92, 1, 122)"
+              ></ion-icon
+              ><span>Resume</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mainSection">
+        <div class="topbar">
+          <ion-icon name="menu-outline" class="menu"></ion-icon>
+        </div>
+
+        <section class="banner" id="banner">
+          <div class="content">
+            <h1>Hi! <br />I am <span>Shiva</span></h1>
+            <h3>Frontend Developer</h3>
+            <div class="btn">
+              <a href="#About">
+                <span>
+                  About Me
+                  <ion-icon name="arrow-down-outline"></ion-icon>
+                </span>
+              </a>
+            </div>
+            <div class="social-links1">
+              <span class="LinkedIn">
+                <a
+                  href="https://www.linkedin.com/in/shiva-krishna-47557a25a/"
+                  target="_blank"
+                >
+                  <ion-icon
+                    class="social-icons"
+                    name="logo-linkedin"
+                  ></ion-icon>
+                </a>
+              </span>
+              <span class="GitHub">
+                <a href="https://github.com/ShivaKrishna-07" target="_blank">
+                  <ion-icon class="social-icons" name="logo-github"></ion-icon>
+                </a>
+              </span>
+              <span class="Twitter">
+                <a href="https://twitter.com/shiva_123_" target="_blank">
+                  <ion-icon class="social-icons" name="logo-twitter"></ion-icon>
+                </a>
+              </span>
+              <!-- <span class="Telegram">
+                <a href="/" target="_blank">
+                  <ion-icon
+                    class="social-icons"
+                    name="navigate-outline"
+                  ></ion-icon>
+                </a>
+              </span> -->
+              <span class="Instagram">
+                <a
+                  href="https://www.instagram.com/_shiva___.07/"
+                  target="_blank"
+                >
+                  <ion-icon
+                    class="social-icons"
+                    name="logo-instagram"
+                  ></ion-icon>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="img">
+            <img src="images/img.png" alt="img" />
+          </div>
+        </section>
+
+        <section class="About" id="About">
+          <header><ion-icon name="person"></ion-icon>About Me</header>
+          <div class="content">
+            <div class="img">
+              <img src="./images/profile.png" alt="me" />
+            </div>
+            <div class="description">
+              <h2>I'm Shiva Krishna</h2>
+              <br />
+              <h4>Frontend Developer</h4>
+              <br />
+              <p class="cont2">
+                I am an Information Technology undergraduate student from VBIT
+                Hyderabad.Passionate frontend developer with expertise in
+                crafting responsive and visually appealing user interfaces.<br />
+                As a beginner, I understand the importance of continuous
+                learning and growth. I am constantly challenging myself to take
+                on new projects and explore different frameworks and tools to
+                enhance my abilities.
+              </p>
+              <br />
+              <p>
+                <span class="highlight">Email:</span> shivakrishna6032@gmail.com
+              </p>
+              <br />
+              <p>
+                <span class="highlight">Place:</span> Hyderabad, India - 500043
+              </p>
+              <br /><br />
+              <button class="btn">
+                <a
+                  href="https://docs.google.com/document/d/1ABSwbM4bjhAX5QCTe05X-IoTiVN1IB57pKMjxkX5j0s/edit?usp=sharing"
+                  target="_blank"
+                  >Resume ></a
+                >
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="Projects" id="Projects">
+          <header>
+            <ion-icon
+                name="newspaper"
+              ></ion-icon>
+            Projects</header>
+          <div class="project-box">
+            <div class="project-card">
+              <img src="/images/projects/spiceTracker.png" alt="">
+              <div class="project-intro">
+                <h2>Spice Tracker</h2>
+                <p>
+                  Spice Tracker is a dynamic recipe finder website where users can search and explore their favorite recipes
+                </p>
+                <div class="project-btn">
+                  <a href="https://shivakrishna-07.github.io/Spice-Tracker/" target="_blank">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    View
+                  </a>
+                  <a href="https://github.com/ShivaKrishna-07/Spice-Tracker" target="_blank">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="/images/projects/CodePen.png" alt="">
+              <div class="project-intro">
+                <h2>Code Pen</h2>
+                <p>
+                  Created a Sandbox environment where users can write, edit and run the HTML, CSS and JavaScript code in real time
+                </p>
+                <div class="project-btn">
+                  <a href="https://shivakrishna-07.github.io/Code-Pen/" target="_blank">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    View
+                  </a>
+                  <a href="https://github.com/ShivaKrishna-07/Code-Pen" target="_blank">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="/images/projects/ToDoList.png" alt="">
+              <div class="project-intro">
+                <h2>To Do List</h2>
+                <p>
+                  Developed a user friendly To Do List application using HTML, CSS, JavaScript. 
+                </p>
+                <div class="project-btn">
+                  <a href="https://shivakrishna-07.github.io/To-Do-List/" target="_blank">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    View
+                  </a>
+                  <a href="https://github.com/ShivaKrishna-07/To-Do-List" target="_blank">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="/images/projects/FlipTxt.png" alt="">
+              <div class="project-intro">
+                <h2>FlipTxt</h2>
+                <p>
+                  Whether you need to convert text to uppercase,lowercase,copy it,clear it,or perform various other transformations, we've got you covered.
+                </p>
+                <div class="project-btn">
+                  <a href="https://shivakrishna-07.github.io/FlipTxt/" target="_blank">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    View
+                  </a>
+                  <a href="https://github.com/ShivaKrishna-07/FlipTxt" target="_blank">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="Education" id="Education">
+          <header><ion-icon name="school"></ion-icon>My Education</header>
+
+          <div class="box">
+            <div class="text-box">
+              <div>
+                <h2>Vignana Bharathi Institute of Technology</h2>
+                <h4>Bachelor of Engineering in Information Technology</h4>
+                <h3>2022 - 2026 | PURSUING</h3>
+              </div>
+            </div>
+
+            <div class="text-box">
+              <div>
+                <h2>Kendriya Vidyalaya No 2</h2>
+                <h4>Class 12th | PCM with Computer Science</h4>
+                <h3>2020 - 2022 | COMPLETED</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="Skills" id="Skills">
+          <header><ion-icon name="stats-chart"></ion-icon>Skills</header>
+          <div class="skillbox">
+            <div class="skill">
+              <img src="/images/skills/HTML.png" alt="" />
+              <p>HTML</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/CSS.png" alt="" />
+              <p>CSS</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/JS.png" alt="" />
+              <p>Java Script</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/react.png" alt="" />
+              <p>React JS</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/BOOTSTRAP.png" alt="" />
+              <p>Bootstrap</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/MUI.png" alt="" />
+              <p>Material UI</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/TAILWIND.png" alt="" />
+              <p>Tailwind</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/wordpress.png" alt="" />
+              <p>Wordpress</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/C.png" alt="" />
+              <p>C</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/C++.png" alt="" />
+              <p>C++</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/PYTHON.png" alt="" />
+              <p>Python</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/redux.png" alt="" />
+              <p>Redux</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/nodejs.png" alt="" />
+              <p>Node JS</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/MYSQL.png" alt="" />
+              <p>My Sql</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/GIT.png" alt="" />
+              <p>Git VCS</p>
+            </div>
+            <div class="skill">
+              <img src="/images/skills/github.png" alt="" />
+              <p>Git Hub</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="Contact" id="Contact">
+          <hr />
+          <header><ion-icon name="call"></ion-icon>Contact Me</header>
+          <div class="page1">
+            <div class="pic">
+              <img class="contact-img" src="images/contact1.png" alt="" />
+            </div>
+            <div class="contact-form">
+              <form action="">
+                <div class="input-box">
+                  <input type="text" placeholder="Name" class="input" />
+                </div>
+
+                <div class="input-box">
+                  <input type="email" placeholder="Email" class="input" />
+                </div>
+
+                <div class="input-box">
+                  <input type="tel" placeholder="Phone" class="input" />
+                </div>
+
+                <textarea
+                  placeholder="Message"
+                  name="Message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+                <div class="btn">SUBMIT</div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <div class="thanks">
+            <div class="footer-head">Shiva's Portfolio</div>
+            <div class="matter">
+              Thank you for visiting my personal portfolio website.<br />
+              <br />Connect with me over socials
+            </div>
+          </div>
+          <div class="quick-links">
+            <div class="footer-head">Quick Links</div>
+            <div class="arrow-links">
+              <li>
+                <ion-icon class="icon" name="chevron-forward-circle"></ion-icon
+                ><a href="#banner">Home</a>
+              </li>
+              <li>
+                <ion-icon class="icon" name="chevron-forward-circle"></ion-icon
+                ><a href="#About">About</a>
+              </li>
+              <li>
+                <ion-icon class="icon" name="chevron-forward-circle"></ion-icon
+                ><a href="#Projects">Projects</a>
+              </li>
+              <li>
+                <ion-icon class="icon" name="chevron-forward-circle"></ion-icon
+                ><a href="#Education">Education</a>
+              </li>
+              <li>
+                <ion-icon class="icon" name="chevron-forward-circle"></ion-icon
+                ><a href="#Skills">Skills</a>
+              </li>
+            </div>
+          </div>
+          <div class="contact-links">
+            <div class="footer-head">Contact Info</div>
+            <div class="details">
+              <span class="call">
+                <ion-icon class="icon" name="call"></ion-icon>
+                +91 8523014759
+              </span>
+              <span class="call">
+                <ion-icon class="icon" name="mail"></ion-icon>
+                shivakrishna6032@gmail.com
+              </span>
+              <span class="call">
+                <ion-icon class="icon" name="location"></ion-icon>
+                Hyderabad, India-500043
+              </span>
+              <div class="social-links">
+                <span class="LinkedIn">
+                  <a
+                    href="https://www.linkedin.com/in/shiva-krishna-47557a25a/"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      class="social-icons"
+                      name="logo-linkedin"
+                    ></ion-icon>
+                  </a>
+                </span>
+                <span class="GitHub">
+                  <a href="https://github.com/ShivaKrishna-07" target="_blank">
+                    <ion-icon
+                      class="social-icons"
+                      name="logo-github"
+                    ></ion-icon>
+                  </a>
+                </span>
+                <span class="Twitter">
+                  <a href="https://twitter.com/shiva_123_" target="_blank">
+                    <ion-icon
+                      class="social-icons"
+                      name="logo-twitter"
+                    ></ion-icon>
+                  </a>
+                </span>
+                <!-- <span class="Telegram">
+                  <a href="">
+                    <ion-icon
+                      class="social-icons"
+                      name="navigate-outline"
+                    ></ion-icon>
+                  </a>
+                </span> -->
+                <span class="Instagram">
+                  <a
+                    href="https://www.instagram.com/_shiva___.07/"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      class="social-icons"
+                      name="logo-instagram"
+                    ></ion-icon>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
