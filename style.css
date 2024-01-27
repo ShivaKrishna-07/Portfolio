@@ -182,6 +182,9 @@ html{
 .banner img {
   width: 400px;
 }
+.img img{
+  border-radius: 50%;
+}
 
 .banner .btn {
   text-align: center;
@@ -494,8 +497,8 @@ html{
   background-color: #e8e8e8a9;
   border-radius: 20px;
   min-height: 500px;
-  padding: 20px;
-  margin: 0 30px;
+  padding: 20px 0;
+  /* margin: 0 30px; */
 }
 
 .Skills .skill:hover{
@@ -731,4 +734,94 @@ form .btn {
 .social-icons:hover {
   color: rgb(1 0 40);
   background-color: #fff;
+}
+
+
+@media only screen and (max-width: 600px){
+
+  .topbar .menu {
+    right: 111px;
+}
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner .content {
+    bottom: 60px;
+    left: 0px ;
+  }
+  .banner .content h1 {
+    font-size: 2.5rem;
+  }
+  .banner .content h3 {
+    font-size: 1.2rem;
+  }
+
+  .img {
+    height: 5rem;
+  }
+  .banner img {
+    width: 200px;
+    height: 300px;
+  }
+  .banner .btn{
+    font-size: 13px;
+  }
+  .social-icons {
+    font-size: 1.2rem;
+  }
+
+  .About .content {
+    flex-direction: column;
+  }
+  .About .content .description{
+    width: 100%;
+    padding: 20px;
+  }
+  .About .btn{
+    padding: 10px 10px ;
+  }
+  .About .btn a{
+    font-size: 14px;
+  }
+  .img {
+    height: 19rem;
+  }
+  .img img{
+    border-radius: 50%;
+    padding-left: 10%;
+  }
+
+  .text-box {
+    height: 200px;
+    width: 400px;
+  }
+  .text-box h2 {
+    color: rgb(11 102 194);
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .text-box h4 {
+    font-size: 14px;
+  }
+
+  .text-box h3 {
+    margin-top: 35px;
+    font-size: 20px;
+  }
+
+
+  .Projects .project-box{
+    grid-template-columns: auto;
+  }
+
+
+  .Skills .skillbox{
+    grid-template-columns: auto auto;
+  }
+
+  .skillbox .skill{
+    height: 150px;
+    width: 150px;
+  }
 }
